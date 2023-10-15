@@ -12,7 +12,6 @@ export const moveRight = (gridSquares) => {
         settings.gridWidth - 1
     )
   ) {
-    console.log("yep");
     state.currentPosition += 1;
   }
   if (
