@@ -11,5 +11,6 @@ const main = () => {
     moveDown(grid);
   }, state.fallSpeed);
   controls(grid);
+  alert("Will be done in a few days. Wait a bit please");
 };
 main();
