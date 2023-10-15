@@ -1,5 +1,4 @@
-import { operations, settings, state } from "../../variebles.js";
-import { pieces } from "../elements/pieces.js";
+import { operations, settings, state } from "../variebles.js";
 import { draw } from "./draw.js";
 
 export const staticPieces = (gridSquares) => {
@@ -15,9 +14,7 @@ export const staticPieces = (gridSquares) => {
       squares[state.currentPosition + square].classList.add("静的")
     );
     state.currentPosition = Math.floor(settings.gridWidth / 2) - 1;
-    state.currentPiece = pieces(settings.gridWidth)[operations.randomPiece()][
-      operations.currentRotation
-    ];
+    operations.generateRandomPiece();
     draw(squares);
   }
 };

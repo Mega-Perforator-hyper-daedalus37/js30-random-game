@@ -1,4 +1,4 @@
-import { state } from "../../variebles.js";
+import { state } from "../variebles.js";
 
 export const undraw = (gridSquares) => {
   const squares = gridSquares;

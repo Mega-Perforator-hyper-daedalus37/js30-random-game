@@ -1,4 +1,4 @@
-import { settings } from "../../variebles.js";
+import { settings } from "../variebles.js";
 import { createElement } from "../create/createElement.js";
 
 export const createGrid = () => {

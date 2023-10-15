@@ -1,4 +1,4 @@
-import { settings, state } from "../../variebles.js";
+import { settings, state } from "../variebles.js";
 import { draw } from "./draw.js";
 import { staticPieces } from "./staticPieces.js";
 import { undraw } from "./undraw.js";
