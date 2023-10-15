@@ -10,7 +10,6 @@ export const moveLeft = (gridSquares) => {
       (square) => (state.currentPosition + square) % settings.gridWidth === 0
     )
   ) {
-    console.log("yep");
     state.currentPosition -= 1;
   }
   if (

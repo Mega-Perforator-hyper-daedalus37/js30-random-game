@@ -19,7 +19,7 @@ export const createGrid = () => {
   }
   for (let index = 0; index < gridWidth; index++) {
     const element = document.createElement("div");
-    element.classList.add("静的");
+    element.classList.add("bottom");
     grid.append(element);
   }
   return Array.from(grid.children);
