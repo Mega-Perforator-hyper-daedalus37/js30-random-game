@@ -17,6 +17,10 @@ export const controls = (gridSquares) => {
     if (event.keyCode === 40) {
       moveDown(gridSquares);
     }
+    if (event.keyCode === 32) {
+      gameStop();
+    }
+    console.log(event);
   };
   addEventListener("keydown", keysControls);
 };
